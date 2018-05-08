@@ -14,8 +14,23 @@ def hacerRegistro():
 		#metodo para guardar los datos del regitro
 
 def inciarSesion():
-	print("Incie sesion")
-	usuario = str(input("Ingrese "))
+		print("Incie sesion")
+	usuario = str(input("Ingrese usuario"))
+    contra = str(("Ingrese password"))
+    
+    if usuario=="usuario" || contra=="password":
+    	print("Bienvenido Usuario:" + usuario)
+    	print("password:" + contra)
+    else:
+print("""
+
+\t----------------------------------------------------------------------------
+	Red Social de Eventos OpenWorld
+	1) Realizar registro
+	2) Inciar Sesion
+	3) Salir
+	""")
+print()
 
 
 # esto mostrar el menu principal
@@ -48,7 +63,5 @@ if __name__ == '__main__':
 	else:
 		menuPrincipal()
 # aqui termina el menu principal
-
-
 
 	
