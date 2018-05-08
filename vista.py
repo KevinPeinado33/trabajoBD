@@ -31,8 +31,27 @@ print("""
 	3) Salir
 	""")
 print()
+print()
+confirmacion = int(input("Ingrese su opcion: "))
 
+"""
+parte despues de iniaiand
 
+"""	
+print("""
+
+\t----------------------------------------------------------------------------
+\t	-Bienvenido                                                              -
+\t	-1) Cambiar Usuario                                                      -
+\t	-2) Cambiar contraseña                                                   -
+\t	-3) Crear nuevo evento evento                                            -
+\t	-4) Ver contactos                                                        -
+\t  -5) Ver Calendario                                                       -
+\t  -6) Ver proximos eventos                                                 -
+\t  -7) Calificar eventos                                                    - 
+\t  -6) Salir                                                                -
+\t----------------------------------------------------------------------------
+	""")
 # esto mostrar el menu principal
 
 def menuPrincipal():
