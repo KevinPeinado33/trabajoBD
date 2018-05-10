@@ -3,8 +3,8 @@ import cx_Oracle
 CONN_INFO = {
     'host': 'localhost',
     'port': 1521,
-    'user': 'jasg',
-    'psw': 'oracle123',
+    'user': 'dbquebin',
+    'psw': '123456',
     'service': 'pdborcl.home'
 }
 
